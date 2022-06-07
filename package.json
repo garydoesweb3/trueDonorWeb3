@@ -1,9 +1,12 @@
 {
+  "homepage": "http://garydoesweb3.github.io/trueDonorWeb3",
   "name": "kickstart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "mocha",
     "dev": "node server.js"
   },
